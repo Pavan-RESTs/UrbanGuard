@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+  
+  * {
+    cursor: url('https://pngimg.com/d/cursor_PNG61.png'), auto;
+  }
+  
+  * {
+    caret-color: transparent; /* Hide the caret */
+    user-select: none;        /* Prevent text selection */
+  }
+
+  
+  /* Apply custom cursor globally */
